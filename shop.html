@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500,300&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet">
+  <title> Каталог </title>
+</head>
+
+<body>
+  <header>
+    <div class="wrapper clearfix">
+      <div class="logo"><a href=""><img src="img/logo.png" width="139" height="56" alt="logo"></a></div>
+      <ul class="main-menu">
+        <li><a href="index.html">Студия</a></li>
+        <li><a href="">Клиенты</a></li>
+        <li><a  class="active">Магазин</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+      <div class="basket"><a href="" class="basket-item"><span class="icon-basket"></span> Корзина </a></div>
+    </div>
+  </header>
+
+  <div class="promo-block">
+      <div class="wrapper">
+
+          <div class="catalog-promo-title"> Добро пожаловать в магазин готовых макетов </div>
+
+      </div>
+  </div>
+
+  <div class="main">
+      <div class="wrapper">
+
+          <div class="filter-block">
+              <form action="" method="post">
+                  <div class="filter-navigation">
+                      <div class="filter-title"> СТОИМОСТЬ: </div>
+
+                      <div class="range-filter">
+
+                          <div class="range-controls">
+                              <div class="scale">
+                                  <div style="width: 75%;" class="bar"></div>
+                              </div>
+                              <div class="toggle min-toggle"></div>
+                              <div class="toggle max-toggle"></div>
+                          </div>
+                          <div class="price-controls">
+
+                              <label class="from"> <span class="from-text">от </span>
+                                  <input class="min-price" type="text" value="0" name="min-price">
+                              </label>
+
+
+                              <label class="to"> <span class="to-text">до</span>
+                                  <input class="max-price" type="text" value="15000" name="max-price">
+                              </label>
+
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="filter-select">
+
+                      <div class="filter-version">
+                          <div class="filter-title filter-title-margin"> СЕТКА: </div>
+                          <input type="radio" id="rd1" name="nameradio">
+                          <label for="rd1"> Адаптивная </label>
+                          <input type="radio" id="rd2" name="nameradio">
+                          <label for="rd2"> Фиксированная </label>
+                          <input type="radio" id="rd3" name="nameradio">
+                          <label for="rd3"> Резиновая </label>
+                      </div>
+                      <div class="features">
+                          <div class="filter-title"> ОСОБЕННОСТИ: </div>
+                          <input type="checkbox" id="ch1">
+                          <label for="ch1"> Слайдер </label>
+                          <input type="checkbox" id="ch2">
+                          <label for="ch2"> Блок преимуществ </label>
+                          <input type="checkbox" id="ch3">
+                          <label for="ch3"> Новости </label>
+                          <input type="checkbox" id="ch4">
+                          <label for="ch4"> Галерея </label>
+                          <input type="checkbox" id="ch5">
+                          <label for="ch5"> Корзина </label>
+                      </div>
+                      <div class="filter-button">
+                          <button type="submit"> Показать </button>
+                      </div>
+
+                  </div>
+              </form>
+          </div>
+
+
+          <div class="portfolio-block">
+              <div class="sort">
+                  <div class="sort-left">
+                      <span class="sort-title"> СОРТИРОВАТЬ: </span>
+                      <a href="#" class="type"> ПО ЦЕНЕ </a>
+                      <a href="#" class="type"> ПО ТИПУ </a>
+                      <a href="#" class="type"> ПО ФУНКЦИОНАЛУ </a>
+                  </div>
+
+                  <div class="sort-icons">
+                      <a href="#" class="icon-down-dir active"></a>
+                      <a href="#" class="icon-up-dir"></a>
+                  </div>
+              </div>
+              <div class="portfolio">
+                  <div class="portfolio-item">
+                      <div class="portfolio-item-bordertop"><i class="white-point"></i><i class="white-point"></i><i class="white-point"></i>
+                      </div>
+                      <div class="portfolio-item-img"><img src="img/item1.jpg" width="240" height="240" alt="Пример магазина первый">
+                      </div>
+                      <div class="portfolio-item-description">
+                          <div class="title"> AVIATOR </div>
+                          <div class="description"> Одностраничный макет с авторским дизайном </div>
+                          <div class="price"><a href="#"> 8000 Р. </a>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="portfolio-item">
+                      <div class="portfolio-item-bordertop"><i class="white-point"></i><i class="white-point"></i><i class="white-point"></i>
+                      </div>
+                      <div class="portfolio-item-img"><img src="img/item2.jpg" width="240" height="240" alt="Пример магазина второй">
+                      </div>
+                      <div class="portfolio-item-description">
+                          <div class="title"> Sunset </div>
+                          <div class="description"> Интернет-магазин с личным кабинетом </div>
+                          <div class="price"><a href="#"> 10000 Р. </a>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="portfolio-item">
+                      <div class="portfolio-item-bordertop"><i class="white-point"></i><i class="white-point"></i><i class="white-point"></i>
+                      </div>
+                      <div class="portfolio-item-img"><img src="img/item3.jpg" width="240" height="240" alt="Пример магазина третий">
+                      </div>
+                      <div class="portfolio-item-description">
+                          <div class="title"> FORTE </div>
+                          <div class="description"> Отличный макет для личного блога </div>
+                          <div class="price"><a href="#"> 5000 Р. </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="portfolio-item">
+                      <div class="portfolio-item-bordertop"><i class="white-point"></i><i class="white-point"></i><i class="white-point"></i>
+                      </div>
+                      <div class="portfolio-item-img"><img src="img/item4.jpg" width="240" height="240" alt="Пример магазина четвертый">
+                      </div>
+                      <div class="portfolio-item-description">
+                          <div class="title title-fix"> Modern Organic THAI </div>
+                          <div class="description description-fix"> Сайт для ресторана быстрого питания </div>
+                          <div class="price"><a href="#"> 12000 Р. </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="portfolio-item">
+                      <div class="portfolio-item-bordertop"><i class="white-point"></i><i class="white-point"></i><i class="white-point"></i>
+                      </div>
+                      <div class="portfolio-item-img"><img src="img/item5.jpg" width="240" height="240" alt="Пример магазина пятый">
+                      </div>
+                      <div class="portfolio-item-description">
+                          <div class="title"> AVENUE </div>
+                          <div class="description"> Макет для блога о путешествиях </div>
+                          <div class="price"><a href="#"> 8000 Р. </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="portfolio-item">
+                      <div class="portfolio-item-bordertop"><i class="white-point"></i><i class="white-point"></i><i class="white-point"></i>
+                      </div>
+                      <div class="portfolio-item-img"><img src="img/item6.jpg" width="240" height="240" alt="Пример магазина шестой">
+                      </div>
+                      <div class="portfolio-item-description">
+                          <div class="title"> DOVETAIL </div>
+                          <div class="description"> Интернет-магазин с галереей товаров </div>
+                          <div class="price"><a href="#"> 14000 Р. </a>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+              <div class="page-number">
+                  <a href="#" class="page-point current"> 1 </a>
+                  <a href="#" class="page-point"> 2 </a>
+                  <a href="#" class="page-point"> 3 </a>
+                  <a href="#" class="page-next"> СЛЕДУЮЩАЯ </a>
+              </div>
+          </div>
+
+
+
+      </div>
+  </div>
+
+
+
+
+  <div class="map-wrapper map-img">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59894241239!2d30.320894615939693!3d59.938796869048055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1462995384262" width="900" height="420" style="border:0" allowfullscreen class="map-google"></iframe>
+      <div class="company-wrapper">
+          <div class="company-info">
+              <h2> NЁRDS DESIGN STUDIO </h2>
+              <p> 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 </p>
+              <p> тел. +7 (812) 275-75-75 </p>
+              <a href="/feedback" class="btn btn-map js-form"> Напишите нам</a>
+          </div>
+          <div class="pop-up">
+              <button class="close" type="button" title="Закрыть"> Закрыть </button>
+              <form action="htmlacademy.ru" method="post">
+                  <div class="name-field">
+                      <label>Ваше имя:
+                          <input type="text" name="name" class="name" placeholder="Представьтесь, пожалуйста">
+                      </label>
+                  </div>
+                  <div class="email-field">
+                      <label>Ваш e-mail:
+                          <input type="text" name="e-name" class="name" placeholder="Для отправки ответа">
+                      </label>
+                  </div>
+                <div class="clearfix"></div>
+                  <div class="text-field">
+                      <label> Текст письма:
+                          <textarea name="message" placeholder="В свободной форме"></textarea>
+                      </label>
+                  </div>
+                  <button type="submit" class="btn btn-submit"> ОТПРАВИТЬ </button>
+              </form>
+          </div>
+      </div>
+  </div>
+
+  <footer class="footer">
+      <div class="wrapper clearfix">
+          <div class="social">
+              <a href="#" class="social-icon"><span class="icon-vk"></span></a>
+              <a href="#" class="social-icon"><span class="icon-facebook"></span></a>
+              <a href="#" class="social-icon"><span class="icon-twitter"></span></a>
+          </div>
+          <div class="promo">
+              <strong class="promo-call"> Давайте дружить, это выгодно! </strong>
+              <p class="promo-description"> Скидка 10% для друзей из социальных сетей. </p>
+          </div>
+      </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
